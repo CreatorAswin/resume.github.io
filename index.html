@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Professional Resume</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <span class="initials">AK</span>
+                    <h1>Aswini Kumar</h1>
+                    <p>Full Stack Developer</p>
+                </div>
+                <nav class="nav">
+                    <ul>
+                        <li><a href="#" class="active" data-section="about">About</a></li>
+                        <li><a href="#" data-section="experience">Experience</a></li>
+                        <li><a href="#" data-section="education">Education</a></li>
+                        <li><a href="#" data-section="skills">Skills</a></li>
+                        <li><a href="#" data-section="projects">Projects</a></li>
+                        <li><a href="#" data-section="contact">Contact</a></li>
+                    </ul>
+                    <div class="mobile-menu-btn">
+                        <i class="fas fa-bars"></i>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <div class="mobile-menu">
+        <ul>
+            <li><a href="#" class="active" data-section="about">About</a></li>
+            <li><a href="#" data-section="experience">Experience</a></li>
+            <li><a href="#" data-section="education">Education</a></li>
+            <li><a href="#" data-section="skills">Skills</a></li>
+            <li><a href="#" data-section="projects">Projects</a></li>
+            <li><a href="#" data-section="contact">Contact</a></li>
+        </ul>
+    </div>
+
+    <main class="main-content">
+        <div class="container">
+            <section id="about" class="section active">
+                <div class="section-content" id="about-content">
+                    <!-- Content loaded via JS -->
+                </div>
+            </section>
+
+            <section id="experience" class="section">
+                <div class="section-content" id="experience-content">
+                    <!-- Content loaded via JS -->
+                </div>
+            </section>
+
+            <section id="education" class="section">
+                <div class="section-content" id="education-content">
+                    <!-- Content loaded via JS -->
+                </div>
+            </section>
+
+            <section id="skills" class="section">
+                <div class="section-content" id="skills-content">
+                    <!-- Content loaded via JS -->
+                </div>
+            </section>
+
+            <section id="projects" class="section">
+                <div class="section-content" id="projects-content">
+                    <!-- Content loaded via JS -->
+                </div>
+            </section>
+
+            <section id="contact" class="section">
+                <div class="section-content" id="contact-content">
+                    <!-- Content loaded via JS -->
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="social-links">
+                <a href="https://github.com/CreatorAswin"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/creatoraswin/"><i class="fab fa-linkedin"></i></a>
+                <a href="https://x.com/creatoraswin"><i class="fab fa-twitter"></i></a>
+                <a href="https://www.instagram.com/creatoraswin/"><i class="fab fa-instagram"></i></a>
+            </div>
+            <p>&copy; <span id="current-year"></span> Aswini Kumar. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
